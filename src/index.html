@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>New awesome books</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body class="h-[100vh] border-4 border-black p-4">
+    <header class="flex flex-col justify-center items-end">
+      <!-- navbar -->
+      <nav
+        class="border-4 w-[100%] font-medium text-lg border-black flex justify-between items-center p-4"
+      >
+        <div>
+          <p>Awesome Books</p>
+        </div>
+        <ul class="w-auto flex justify-center items-center p-2">
+          <li class="border-r-2 border-black p-2 px-4 cursor-pointer">
+            List
+          </li>
+          <li class="border-r-2 border-black p-2 px-4 cursor-pointer">
+            Add new
+          </li>
+          <li class="p-2 px-4 cursor-pointer">Contact</li>
+        </ul>
+      </nav>
+      <p>March 19th 2021, 9:25:32 am</p>
+    </header>
+
+    <!-- book list section -->
+    <section>
+      <h1 class="text-4xl font-medium text-center">
+        All awesome books
+      </h1>
+      <div></div>
+    </section>
+
+    <!-- form section -->
+    <section
+      class="boder-2 border-black flex flex-col justify-center items-center gap-y-4"
+    >
+      <h2 class="text-4xl font-medium text-center">Add a new book</h2>
+      <form class="w-[500px] flex flex-col justify-center items-end">
+        <input
+          class="w-[100%] border-2 border-black p-4"
+          type="text"
+          placeholder="Title"
+        />
+        <input
+          class="w-[100%] mt-4 border-2 border-black p-4"
+          type="text"
+          placeholder="Author"
+        />
+        <button
+          class="mt-4 border-2 border-black px-4 py-1 cursor-pointer"
+          type="submit"
+        >
+          Add
+        </button>
+      </form>
+    </section>
+
+    <!-- contact information section -->
+    <section class="flex flex-col justify-center items-center">
+      <h2 class="text-4xl font-medium text-center">Contact Information</h2>
+      <div class="w-[500px]">
+        <p class="text-lg font-medium">
+          Do you have any questions or you want to say "hello"? <br />
+          You can reach out to us!
+        </p>
+        <ul class="text-lg font-medium">
+          <li>Our email mail@mail.com</li>
+          <li>Our phone number 00436534422</li>
+          <li>Our address: Streetname 22, 84503 City, County</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="border-4 w-[100%] border-black flex justify-start items-center p-4">
+      <p>Copyright</p>
+      <p class="ml-4 font-bold text-2xl">...</p>
+    </footer>
+  </body>
+</html>
