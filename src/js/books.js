@@ -1,4 +1,6 @@
+// eslint-disable-next-line import/extensions
 import Book from './book.js';
+// eslint-disable-next-line import/extensions
 import Storage from './localStorage.js';
 
 const form = document.querySelector('.form');
@@ -22,10 +24,10 @@ class UI {
     booksContainer.innerHTML = displayData.join(' ');
   };
 
-  static removeBook = (id) => {
+  static removeBook = () => {
     booksContainer.addEventListener('click', (e) => {
       if (e.target.classList.contains('remove')) {
-        //remove from ui
+        // remove from ui
         e.target.parentElement.remove();
       }
       // remove from array
@@ -52,9 +54,9 @@ form.addEventListener('submit', (e) => {
   booksArr = [...booksArr, book];
   // display data
   UI.displayData();
-  //clear form
+  // clear form
   form.reset();
-  //remove book
+  // remove book
   UI.removeBook();
   // add book to local storage
   Storage.addToStorage(booksArr);

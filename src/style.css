@@ -3,6 +3,6 @@
   box-shadow: 4px 4px #212121;
 }
 
-.books-container div:nth-child(odd){
+.books-container div:nth-child(odd) {
   background: rgb(187, 184, 184);
 }
