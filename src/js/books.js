@@ -13,7 +13,7 @@ class UI {
     const displayData = booksArr.map((item) => {
       const { id, title, author } = item;
       return `
-        <div class="flex justify-between items-center px-4 py-3 text-lg border-2 border-black w-[100%]">
+        <div class="flex justify-between items-center px-4 py-3 text-lg w-[100%]">
           <p><strong>"${title}"</strong> by ${author}</p>
           <button class="remove py-1 px-4 border-2 border-black" data-id=${id}>remove</button>
         </div>

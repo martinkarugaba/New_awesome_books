@@ -533,6 +533,18 @@ video {
   margin-left: 1rem;
 }
 
+.mt-\[8rem\] {
+  margin-top: 8rem;
+}
+
+.mb-\[8rem\] {
+  margin-bottom: 8rem;
+}
+
+.mb-\[5rem\] {
+  margin-bottom: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -567,6 +579,14 @@ video {
 
 .w-\[500px\] {
   width: 500px;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .cursor-pointer {
@@ -607,6 +627,10 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-r-2 {
