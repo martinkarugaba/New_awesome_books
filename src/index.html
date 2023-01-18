@@ -10,30 +10,30 @@
     <title>New awesome books</title>
     <link rel="stylesheet" href="../dist/output.css" />
   </head>
-  <body class="h-[100vh] border-4 border-black p-4">
-    <header class="flex flex-col justify-center items-end">
+  <body class="h-[100vh] border-4 border-black p-4 flex flex-col justify-between items-center">
+    <header class="flex flex-col justify-center items-end w-[100%]">
       <!-- navbar -->
       <nav
-        class="border-4 w-[100%] font-medium text-lg border-black flex justify-between items-center p-4"
+        class="border-4 w-[100%] font-medium text-lg border-black flex justify-between items-center p-1 px-4"
       >
         <div>
           <p>Awesome Books</p>
         </div>
         <ul class="w-auto flex justify-center items-center p-2">
-          <li class="border-r-2 border-black p-2 px-4 cursor-pointer">
+          <li class="border-r-2 border-black p-2 px-4 cursor-pointer list-btn">
             List
           </li>
-          <li class="border-r-2 border-black p-2 px-4 cursor-pointer">
+          <li class="border-r-2 border-black p-2 px-4 cursor-pointer add-new-btn">
             Add new
           </li>
-          <li class="p-2 px-4 cursor-pointer">Contact</li>
+          <li class="p-2 px-4 cursor-pointer contact-btn">Contact</li>
         </ul>
       </nav>
       <p>March 19th 2021, 9:25:32 am</p>
     </header>
 
     <!-- book list section -->
-    <section>
+    <section class="list-section hidden">
       <h1 class="text-4xl font-medium text-center">
         All awesome books
       </h1>
@@ -42,7 +42,7 @@
 
     <!-- form section -->
     <section
-      class="boder-2 border-black flex flex-col justify-center items-center gap-y-4"
+      class="boder-2 border-black flex flex-col justify-center items-center gap-y-4 form-section"
     >
       <h2 class="text-4xl font-medium text-center">Add a new book</h2>
       <form class="w-[500px] flex flex-col justify-center items-end">
@@ -66,7 +66,7 @@
     </section>
 
     <!-- contact information section -->
-    <section class="flex flex-col justify-center items-center">
+    <section class="flex-col justify-center items-center contact-section hidden">
       <h2 class="text-4xl font-medium text-center">Contact Information</h2>
       <div class="w-[500px]">
         <p class="text-lg font-medium">
@@ -85,5 +85,7 @@
       <p>Copyright</p>
       <p class="ml-4 font-bold text-2xl">...</p>
     </footer>
+
+    <script src="./js/navbar.js"></script>
   </body>
 </html>
