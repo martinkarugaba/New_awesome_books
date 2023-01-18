@@ -517,6 +517,10 @@ video {
   position: static;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mt-\[4rem\] {
   margin-top: 4rem;
 }
@@ -666,10 +670,6 @@ video {
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .filter {

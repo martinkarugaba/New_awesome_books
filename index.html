@@ -9,9 +9,11 @@
     />
     <title>New awesome books</title>
     <link rel="stylesheet" href="../dist/output.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="h-auto min-h-screen border-4 border-black p-4 flex flex-col justify-between items-center">
+  <body
+    class="h-auto min-h-screen border-4 border-black p-4 flex flex-col justify-between items-center"
+  >
     <header class="flex flex-col justify-center items-end w-[100%]">
       <!-- navbar -->
       <nav
@@ -21,16 +23,20 @@
           <p>Awesome Books</p>
         </div>
         <ul class="w-auto flex justify-center items-center p-2">
-          <li class="border-r-2 border-black p-2 px-4 cursor-pointer list-btn">
+          <li
+            class="border-r-2 border-black p-2 px-4 cursor-pointer list-btn"
+          >
             List
           </li>
-          <li class="border-r-2 border-black p-2 px-4 cursor-pointer add-new-btn">
+          <li
+            class="border-r-2 border-black p-2 px-4 cursor-pointer add-new-btn"
+          >
             Add new
           </li>
           <li class="p-2 px-4 cursor-pointer contact-btn">Contact</li>
         </ul>
       </nav>
-      <p>March 19th 2021, 9:25:32 am</p>
+      <p class="mt-2">March 19th 2021, 9:25:32 am</p>
     </header>
 
     <!-- book list section -->
@@ -38,16 +44,21 @@
       <h1 class="text-4xl font-medium text-center mb-8">
         All awesome books
       </h1>
-      <div class="books-container w-[100%] flex flex-col justify-start items-center border-2 border-black">
-      </div>
+      <div
+        class="books-container w-[100%] flex flex-col justify-start items-center border-2 border-black"
+      ></div>
     </section>
 
     <!-- form section -->
     <section
       class="boder-2 border-black flex flex-col justify-center items-center gap-y-4 form-section"
     >
-      <h2 class="text-4xl font-medium text-center mb-[5rem]">Add a new book</h2>
-      <form class="w-[500px] flex flex-col justify-center items-end form">
+      <h2 class="text-4xl font-medium text-center mb-[5rem]">
+        Add a new book
+      </h2>
+      <form
+        class="w-[500px] flex flex-col justify-center items-end form"
+      >
         <input
           class="w-[100%] border-4 border-black p-4 title"
           type="text"
@@ -70,8 +81,12 @@
     </section>
 
     <!-- contact information section -->
-    <section class="flex-col justify-center items-center contact-section hidden">
-      <h2 class="text-4xl font-medium text-center mb-[5rem]">Contact Information</h2>
+    <section
+      class="flex-col justify-center items-center contact-section hidden"
+    >
+      <h2 class="text-4xl font-medium text-center mb-[5rem]">
+        Contact Information
+      </h2>
       <div class="w-[500px]">
         <p class="text-lg font-medium">
           Do you have any questions or you want to say "hello"? <br />
@@ -85,9 +100,11 @@
       </div>
     </section>
 
-    <footer class="border-4 w-[100%] border-black flex justify-start items-center p-4 mt-[8rem]">
+    <footer
+      class="border-4 w-[100%] border-black font-medium flex justify-start items-center p-4 mt-[8rem]"
+    >
       <p>Copyright</p>
-      <p class="ml-4 font-bold text-2xl">...</p>
+      <p class="ml-4 text-2xl dots">...</p>
     </footer>
 
     <script type="module" src="./js/books.js"></script>
