@@ -64,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://martinkarugaba.github.io/New_awesome_books/)
+- [Live Demo Link](https://new-awesome-books.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
